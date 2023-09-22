@@ -10,10 +10,18 @@ public class Practice1 {
       int[][] arr2 =new int[2][3];
      
       
-      
+        System.out.println("Enter elements for A matrix: ");
       for(int row=0;row<2;row++){
           for(int col=0;col<3;col++){
+              System.out.printf("arr1[%d][%d] = ",row,col);
               arr1[row][col]=sc.nextInt();
+          }
+      }
+      System.out.println("Enter elements for B matrix: ");
+      for(int row=0;row<2;row++){
+          for(int col=0;col<3;col++){
+              System.out.printf("arr2[%d][%d] = ",row,col);
+              arr2[row][col]=sc.nextInt();
           }
       }
       
@@ -28,11 +36,7 @@ public class Practice1 {
       }
        System.out.println("");
        
-        for(int row=0;row<2;row++){
-          for(int col=0;col<3;col++){
-              arr2[row][col]=sc.nextInt();
-          }
-      }
+        
       
       System.out.print("B = ");
        for(int row=0;row<2;row++){
@@ -49,3 +53,4 @@ public class Practice1 {
     }
    
 }
+

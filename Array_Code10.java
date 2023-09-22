@@ -9,7 +9,7 @@ public class Practice1 {
       int[][] arr1 =new int[2][3];
       int[][] arr2 =new int[2][3];
      
-      
+    
         System.out.println("Enter elements for A matrix: ");
       for(int row=0;row<2;row++){
           for(int col=0;col<3;col++){

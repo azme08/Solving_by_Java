@@ -1,4 +1,4 @@
-//Delete a value from Array List
+//Delete a value and all values from Array List
 import java.util.ArrayList;
 
 public class Practice1 {
@@ -17,7 +17,10 @@ public class Practice1 {
         //Remove Elements
         arr.remove(2);
         System.out.println("After Removing Element: "+arr);
-       
+
+        //Remove all from Array List
+         arr.removeAll(arr);
+        System.out.println("After Removing All: "+arr);
         
     }
    
